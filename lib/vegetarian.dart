@@ -144,37 +144,7 @@ class _FoodapiState extends State<Foodapi> {
             ),
           );
         }),
-        // body: CustomScrollView(
-        //   slivers: <Widget>[
-        //     SliverFillRemaining(
-        //       child: FutureBuilder(
-        //         future: getfood(),
-        //         builder: (context, snapshot) {
-        //           if (snapshot.hasData) {
-        //             print(snapshot.data);
-        //             var listSeafood = snapshot.data['meals'];
-        //             return ListView.builder(
-        //                 shrinkWrap: true,
-        //                 itemCount: listSeafood.length,
-        //                 itemBuilder: (context, index) {
-        //                   return Text("LIST BISA");
-        //                   // return ListTile(
-        //                   //   contentPadding: EdgeInsets.all(8),
-        //                   //   leading: Image.network(
-        //                   //       listSeafood[index]['strMealThumb']),
-        //                   //   title: Text(listSeafood[index]['strMeal']),
-        //                   // );
-        //                 });
-        //           } else {
-        //             return Center(
-        //               child: CircularProgressIndicator(),
-        //             );
-        //           }
-        //         },
-        //       ),
-        //     )
-        //   ],
-        // ),
+       
       ),
     );
   }
