@@ -1,4 +1,4 @@
-# Food api 101
+# Flutter API 101
 just trying how to call an API on apps
 
 I'm using https://www.themealdb.com API's
